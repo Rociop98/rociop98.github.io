@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+
+header{
+    color: rgb(230, 240, 255);
+    padding: 5px;
+    text-align: right;
+    position: relative;
+    margin: 25px;
+    background-color: rgb(15, 67, 97);
+    font-weight: bold;
+}
+
+h1{
+    margin: 30px 100px;
+}
+
+body{
+    background-color: rgb(213, 255, 241);
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgb(213, 255, 241);
+    padding: 10px;
+    float: left;
+    width: 23%;
+    position: fixed;
+    height: auto;
+  }
+
+.barra{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+  }
+
+li a:hover{
+    color: rgb(230, 240, 255);
+    background-color: rgb(37, 15, 97);
+}
+
+
+main{
+    background-color: rgb(218, 245, 238);
+    float: right;
+    padding: 15px;
+    width: 72%;
+    margin-right: 25px;
+    border: 1px solid black;
+    min-height: 100%;
+}
+
+
+section{
+    margin-bottom: 50px;
+}
+
+h2{
+    color: rgb(230, 240, 255);
+    background-color: rgb(15, 67, 97);
+    padding: 5px;
+}
+
+h3{
+    font-weight: bold;
+    color: #2D1570;
+    background-color: rgb(202, 226, 240);
+}
+
+h4{
+    color: #582963;
+}
+
+#foto{
+    float: right;
+    padding: 40px
+}
+
+.datos{
+    padding: 5px;
+}
+
+#subtitulo{
+    text-decoration: underline dotted;
+    background-color: rgb(218, 245, 238);
+    border: none;
+    color: #582963;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#subtitulo:hover{
+    background-color: rgb(182, 219, 221);
+}
+
+p{
+    padding-left: 15px;
+    color: rgb(3, 3, 29);
+}
+
+a{
+    color: rgb(112, 51, 253);
+}
+
+.desplegable{
+    display: none;
+}
+
+.dibujos{
+    width: 30%;
+}
+
+footer{
+    background-color: rgb(15, 67, 97);
+    clear: both;
+    padding: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+    /*Pantallas un poco mas chicas*/
+    header, nav, footer {
+        display: none;
+    }
+    main{
+        width: 100%;
+        margin: 0px;
+    }
+
+}
