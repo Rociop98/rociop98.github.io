@@ -108,21 +108,27 @@
         <form name="fin" onsubmit="return validar()">
             <label>Nombre</label>
                 <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+            <br>
             <label>Apellido</label>
                 <input type="text" name="apellido" placeholder="Ingrese su apellido" required>
+            <br>
             <label>E-mail</label>
                 <input type="email" name="email" placeholder="Ingrese su e-mail" required>
             <br>
             <label>Empresa/Organización a la que representa</label>
             <input type="text" name="empresa" placeholder="De ser particular, obviar este campo">
             <label id="celeste">¿Es una entidad nacional o extranjera?</label>
+            <br>
                 <select id="ubicacion" name="selectubi">
                     <option value="" disabled selected>Seleccione</option>
                     <option value="nacional" id="nac">Nacional (Argentina)</option>
                     <option value="extranjera" id="ext">Extranjera</option>
                 </select>
+            <br>
             <label>Proyecto/Propuesta en mente</label>
                 <input type="text" name="msj" placeholder="Mensaje">
+            <br>
+            <br>
             <input type="submit" value="Enviar">
         </form>
          </section>
